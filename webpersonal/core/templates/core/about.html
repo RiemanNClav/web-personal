@@ -1,0 +1,33 @@
+
+{%extends 'core/base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers%}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+
+{% endblock %}
+
+{% block content %}
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+</div>
+<div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Ángel Clavellina</h2>   
+    <p style="text-align: justify;">Nací en México, pero si el dato se requiere mas completo, soy del Estado de México, del increíble municipio de Tlalnepantla de Baz.
+       Siempre fui el chico raro de la escuela con un gusto por las Matemáticas, recuerdo que solía jugar con compañeros de Secundaria/Preparatoria para ver quien terminaba los ejercicios primero, grandes épocas.</p>
+    <p style="text-align: justify;">El tiempo pasó, terminé la Preparatoria en el famosísimo UNAM-CCH-Azcapotzalco, había que escoger una Licenciatura, sabía que quería algo con Matemáticas, ¿Física, Matemáticas, Ingeniería?, ¿Qué escojo?, pues al final ninguna, como que Actuaría se parecía al tronco común de esas y estaba más cerca de mi casa, mas puntos a mi favor pues. </p>
+    <p style="text-align: justify;">Inicié Actuaría, con la incertidumbre de no saber que era, como todos, pero con la emocionante reseña (según) de ser una carrera "bien pagada", total, la seguí cursando, me empezó a gustar, Matemáticas y Estadística pura por todos lados, ¿Increíble no?, irónicamente la programación me aburría, no le encontraba forma, me abrumaba el C++.</p>
+    <p style="text-align: justify;">El tiempo pasó, ¿Cómo que Finanzas, Matemáticas Actuariales, Derivados?, ¿Con que se come eso?, así es, estaba olvidando un pequeño detalle, el Actuario primero se forma en lo básico y ya después lo aplica a diferentes industrias...., me empecé  a aburrir.</p>
+    <p style="text-align: justify;">Regresando un poco al tercer párrafo y corrigiendo la conclusión del cuarto párrafo, no me aburrió del todo, empecé a entender que  existía otra área muy ligada a la formación que lleva el Actuario y que en estos tiempos esta en auge, como que también maduró mi formación y mi lógica matemática, comencé a entender la programación, al grado de estar todo el día inventando que programar. Interceptando  todas estas Áreas nació el gusto por la estupenda "Ciencia de Datos". </p>
+    <p style="text-align: justify;">Ósea no es que la Ciencia de Datos no esté relacionada con Finanzas, Actuariales o cosas así, lo que sucede es que esto se puede aplicar (me atrevo a decir) a cualquier área, así que ya sabía que quería hacer.  Me empecé a formar en esto, el MLOps o la parte operativa de la CD llamo más mi atención que el solo tirar modelos y evaluar, el meterme a los "fierros" y crear toda una infraestructura productiva se me hizo mucho más interesante.</p>
+    <p style="text-align: justify;">Mi objetivo es especializar en el MLOps.</p>
+    <p style="text-align: justify;">Así que sí,  Actuario de formación pero Machine Learning Engineer para los cuates. </p>
+</div>
+</div>
+{% endblock %}
+

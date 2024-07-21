@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% block title %}Certificaciones{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/certificaciones.jpg' %}{% endblock %}
+
+{% block headers%}
+<h1>Certificaciones</h1>
+<span class="subheading">Completadas</span>
+
+{% endblock %}
+
+{% block content %}
+	    <div class="container">
+	      <!-- Proyecto -->
+	      <div class="row project">  	
+	      	<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{% static 'core/img/about-bg.jpg' %}" alt="">
+	      	</div>
+	        <div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">Desarrollador Python</h2>   
+	          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm....</p>
+	          <p><a href="http://google.com">Más información</a></p>
+	      	</div>
+	      </div>
+	      <!-- Proyecto -->
+	      <div class="row project">  	
+	      	<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{% static 'core/img/home-bg.jpg' %}" alt="">
+	      	</div>
+	        <div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">Machine Learning con Google Cloud</h2>   
+	          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm....</p>
+	          <p><a href="http://google.com">Más información</a></p>
+	      	</div>
+	      </div>
+	
+{% endblock %}
